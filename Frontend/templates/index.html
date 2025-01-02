@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processing App</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1e1e2f;
+            color: #f4f4f9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #f4f4f9;
+            margin-bottom: 30px;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 20px; /* Add spacing between buttons */
+            margin: 0;
+        }
+
+        li {
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 1.2em;
+            color: #fff;
+            background: linear-gradient(90deg, #007bff, #0056b3);
+            padding: 15px 30px;
+            border-radius: 30px;
+            box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+            transition: all 0.3s ease-in-out;
+            display: inline-block;
+            width: 300px; /* Ensure consistent button size */
+            text-align: center;
+        }
+
+        a:hover {
+            background: linear-gradient(90deg, #0056b3, #007bff);
+            box-shadow: 0 10px 20px rgba(0, 123, 255, 0.6);
+            transform: translateY(-3px);
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #999;
+        }
+
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Select a Processing Option</h1>
+    <ul>
+        <li><a href="/image_processing">Image Processing</a></li>
+        <li><a href="/object_detection">Object Detection</a></li>
+        <li><a href="/object_tracking">Object Tracking</a></li>
+        <li><a href="/dense_optical_flow">Dense Optical Flow</a></li>
+        <li><a href="/sparse_optical_flow">Sparse Optical Flow</a></li>
+    </ul>
+    <footer>
+        &copy; 2024 Processing App | Developed by Shiven Patel
+    </footer>
+</body>
+</html>
