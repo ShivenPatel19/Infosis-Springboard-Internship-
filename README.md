@@ -1,6 +1,3 @@
-
-# MT Infosis Web Application
-
 This is a Flask-based web application developed as part of the MT Infosis project. It provides multiple functionalities for image and video processing, including tasks like image processing, object detection, object tracking, dense optical flow, and sparse optical flow. The backend is implemented in Flask, and the frontend is powered by HTML templates.
 
 ## Features
